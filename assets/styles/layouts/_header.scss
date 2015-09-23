@@ -1,0 +1,16 @@
+.navbar {
+  z-index: $zindex-navbar; // Adds the z-index
+}
+
+.nav {
+  // Sets li inline-block for 768+
+  @media(min-width: $grid-float-breakpoint) {
+    > li {
+      display: inline-block;
+      border: none;
+      > a {
+
+      }
+    }
+  }
+}
